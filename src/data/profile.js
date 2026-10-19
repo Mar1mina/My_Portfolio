@@ -9,7 +9,7 @@ export const profile = {
   github: 'https://github.com/Mar1mina',
   linkedin: 'https://www.linkedin.com/in/pawlos-yohannes',
   cvAvailable: true,
-  cvPath: '/Pawlos-Yohannes-CV.pdf',
+  cvPath: `${import.meta.env.BASE_URL}Pawlos-Yohannes-CV.pdf`,
   shortDescription: 'Software engineering student building practical solutions and developing skills for real-world problem solving.',
   education: {
     institution: 'Wolkite University',

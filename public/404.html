@@ -56,11 +56,11 @@
     <main class="card">
       <h1>Page not found</h1>
       <p>The page you requested does not exist or has moved. Return to the portfolio home page.</p>
-      <a href="/port/">Go to home</a>
+      <a href="/My_Portfolio/">Go to home</a>
     </main>
 
     <script>
-      const repoPath = '/port';
+      const repoPath = '/My_Portfolio';
       if (window.location.pathname !== repoPath && !window.location.pathname.endsWith('/')) {
         const url = new URL(window.location.href);
         const redirectTarget = `${repoPath}/?redirect=${encodeURIComponent(url.pathname + url.search)}`;

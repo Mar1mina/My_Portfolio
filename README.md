@@ -30,23 +30,13 @@ The production files will be created in the `dist` folder.
 
 ## GitHub Pages deployment
 
-If you want to publish this site on GitHub Pages:
+This project is published at:
 
-1. Push the project to a GitHub repository.
-2. Make sure the repository name matches the value in `vite.config.js`.
-3. Run:
-   npm run deploy
-4. Open your GitHub repository.
-5. Go to Settings > Pages.
-6. Publish the site from the `gh-pages` branch.
+https://mar1mina.github.io/My_Portfolio/
 
-## Important note
+The GitHub Actions workflow builds the Vite site and publishes the `dist` folder whenever changes are pushed to `main`.
 
-If your GitHub repo is not named `port`, update this in `vite.config.js`:
-
-base: '/port/'
-
-Replace `port` with your actual repository name.
+To enable publishing in the repository, open Settings > Pages and select **GitHub Actions** as the build and deployment source. After pushing changes, check the Actions tab and wait for the Pages deployment workflow to finish.
 
 ## CV file
 
