@@ -1,6 +1,6 @@
-﻿# Pawlos Yohannes Portfolio
+# Pawlos Yohannes Portfolio
 
-This is my personal portfolio website built with React and Vite. It showcases my background, skills, projects, education, and contact information.
+This is my personal portfolio website. It showcases my background, skills, projects, education, and contact information.
 
 ## About this project
 
@@ -34,7 +34,7 @@ This project is published at:
 
 https://mar1mina.github.io/My_Portfolio/
 
-The GitHub Actions workflow builds the Vite site and publishes the `dist` folder whenever changes are pushed to `main`.
+The GitHub Actions workflow builds the site and publishes the `dist` folder whenever changes are pushed to `main`.
 
 To enable publishing in the repository, open Settings > Pages and select **GitHub Actions** as the build and deployment source. After pushing changes, check the Actions tab and wait for the Pages deployment workflow to finish.
 
