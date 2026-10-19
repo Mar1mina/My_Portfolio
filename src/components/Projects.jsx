@@ -6,17 +6,12 @@ export function Projects() {
     <section id="projects" className="section-shell">
       <div className="section-heading">
         <p className="section-tag">Projects</p>
-        <h3>Selected work and portfolio concepts.</h3>
+        <h3>Selected projects and work.</h3>
       </div>
 
       <div className="project-grid">
         {projects.map((project) => (
           <article className="project-card" key={project.title}>
-            <div className="project-meta">
-              <span className={`status-badge ${project.status.toLowerCase().replace(/\s+/g, '-')}`}>
-                {project.status}
-              </span>
-            </div>
             <h4>{project.title}</h4>
             <p>{project.description}</p>
             <ul className="tech-list">
